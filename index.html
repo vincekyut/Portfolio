@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vincent Agbuya - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Portfolio</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Vincent Agbuya</span>
+                </h1>
+                <h2 class="hero-subtitle">BSIT Student & Aspiring Developer</h2>
+                <p class="hero-description">
+                    Currently in my 3rd year of Bachelor of Science in Information Technology, 
+                    learning and building projects with C++, Java, PHP, and web technologies. 
+                    Passionate about software development and eager to grow my skills.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-animation">
+                    <div class="code-line">#include &lt;iostream&gt;</div>
+                    <div class="code-line">using namespace std;</div>
+                    <div class="code-line">int main() {</div>
+                    <div class="code-line">&nbsp;&nbsp;cout &lt;&lt; "Hello World!";</div>
+                    <div class="code-line">&nbsp;&nbsp;return 0;</div>
+                    <div class="code-line">}</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a dedicated BSIT student currently in my 3rd year of college, passionate about 
+                        learning programming and software development. As a beginner in the field, I'm 
+                        constantly working to improve my skills and build practical projects that solve real-world problems.
+                    </p>
+                    <p>
+                        My journey in Information Technology has introduced me to various programming languages 
+                        including C++, Java, PHP, and web technologies. I enjoy the challenge of learning new 
+                        concepts and applying them to create functional applications and systems.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>3rd Year</h3>
+                            <p>BSIT Student</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Beginner Level</h3>
+                            <p>Eager to Learn</p>
+                        </div>
+                        <div class="stat">
+                            <h3>Multi-Language</h3>
+                            <p>C++, Java, PHP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="60"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="55"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-php"></i>
+                            <span>PHP</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="65"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="55"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-figma"></i>
+                            <span>Figma</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="45"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git/GitHub</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="40"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                            <div class="skill-level">
+                                <div class="skill-bar" data-level="50"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image pharmacy">
+                        <i class="fas fa-pills"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Pharmacy Sales and Inventory System</h3>
+                        <p>A comprehensive pharmacy management system built with PHP and MySQL. Features include inventory tracking, sales management, medicine database, and reporting functionality for pharmacy operations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">HTML/CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Medicine inventory management</li>
+                                <li>Sales tracking and reporting</li>
+                                <li>Customer management</li>
+                                <li>Low stock alerts</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vincekyut/Pharmacy-Sales-And-Inventory-System" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image hotel">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hotel Management System</h3>
+                        <p>A complete hotel management system designed in Figma with comprehensive UI/UX design. Includes room booking, guest management, staff administration, and billing system interfaces.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">UI/UX Design</span>
+                            <span class="tech-tag">Prototyping</span>
+                            <span class="tech-tag">Wireframing</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Room booking interface</li>
+                                <li>Guest check-in/check-out</li>
+                                <li>Staff management dashboard</li>
+                                <li>Billing and payment system</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.figma.com/design/O55WqIbgbVl0Sho2W326Lt/WEB?node-id=0-1&t=qiKMcdBHUAHYbRll-1" class="project-link">
+                                <i class="fab fa-figma"></i> View Design
+                            </a>
+                            <a href="https://www.figma.com/proto/O55WqIbgbVl0Sho2W326Lt/WEB?node-id=0-1&p=f&t=qiKMcdBHUAHYbRll-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=351%3A426" class="project-link">
+                                <i class="fas fa-play"></i> Prototype
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image jollibee">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Jollibee Ordering System</h3>
+                        <p>A console-based food ordering system inspired by Jollibee, built using C++. Features menu display, order processing, receipt generation, and basic inventory management for a fast-food restaurant.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">File Handling</span>
+                            <span class="tech-tag">Console App</span>
+                        </div>
+                        <div class="project-features">
+                            <ul>
+                                <li>Interactive menu system</li>
+                                <li>Order calculation and processing</li>
+                                <li>Receipt generation</li>
+                                <li>Basic inventory tracking</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/vincekyut/Jollibee-Ordering-System" class="project-link">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Science in Information Technology</h3>
+                        <h4>Your University Name</h4>
+                        <p class="timeline-date">2022 - Present (3rd Year)</p>
+                        <p>Currently pursuing BSIT with focus on programming, software development, and IT fundamentals. 
+                           Learning various programming languages and working on practical projects to build real-world experience.</p>
+                        <div class="education-highlights">
+                            <span class="highlight-tag">Object-Oriented Programming</span>
+                            <span class="highlight-tag">Data Structures</span>
+                            <span class="highlight-tag">Database Systems</span>
+                            <span class="highlight-tag">Web Development</span>
+                            <span class="highlight-tag">Software Engineering</span>
+                            <span class="highlight-tag">System Analysis</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always eager to learn from experienced developers, discuss new opportunities, or collaborate on interesting projects. As a beginner, I'm open to feedback and mentorship!</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>your.email@example.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <span>linkedin.com/in/yourprofile</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <span>github.com/yourusername</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+63 XXX XXX XXXX</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="subject" name="subject" required>
+                            <option value="">Select Subject</option>
+                            <option value="internship">Internship Opportunity</option>
+                            <option value="collaboration">Project Collaboration</option>
+                            <option value="mentorship">Mentorship</option>
+                            <option value="feedback">Project Feedback</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Vincent Agbuya. All rights reserved. | Portfolio</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
